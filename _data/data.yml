@@ -35,120 +35,144 @@ sidebar:
     info:
       - idiom: Vietnamese
         level: Native
-
+      - idiom: English
+        level: Working knowledge
+      - idiom: Japanese
+        level: Basic
   interests:
     title: Research Interests
     info:
-      - item: Computer Vision
-        link: ""
-      - item: Object Detection
-        link: ""
-      - item: Deep Learning and Robotics
-        link: ""
+      - item: Computer Vision & Object Detection
+      - item: Efficient Deep Learning
+      - item: Robotics & ROS 2
 
 career-profile:
   title: Professional Summary
   summary: |
-    Artificial Intelligence undergraduate at FPT University and recipient of a
-    100% tuition scholarship, with a GPA of 3.2/4.0. Active in scientific
-    research and co-author of two published international conference papers
-    at MIWAI 2026 (Springer LNCS/LNAI). Proficient in Python and familiar with
-    AI development libraries, computer vision workflows, and ROS 2. Interested
-    in developing practical, efficient AI systems and conducting applied research.
+    Artificial Intelligence undergraduate at FPT University (Can Tho Campus),
+    awarded a 100% tuition scholarship and maintaining a GPA of 3.2/4.0.
+    Co-author of two international conference papers in the MIWAI 2026
+    proceedings published by Springer. Experienced in academic research on
+    object detection and computer vision, with hands-on Python programming
+    and AI development tools. Familiar with ROS 2 and interested in
+    practical AI applications, efficient models, and applied research.
 
 education:
   title: Education
   info:
     - degree: Bachelor's Degree in Artificial Intelligence (In Progress)
       university: FPT University — Can Tho Campus
-      time: Present
+      time: '2024 – 2028 (expected)'
       details: |
-        - GPA: **3.2/4.0**
-        - Awarded a **100% tuition scholarship**.
-        - Participated in AI and computer vision research, resulting in two published conference papers.
+        - **GPA:** 3.2/4.0
+        - **Scholarship:** 100% tuition scholarship, FPT University.
+        - **Academic focus:** Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
 
 experiences:
   title: Research Experience
   info:
-    - role: Undergraduate AI Researcher / Co-author
+    - role: Undergraduate AI Researcher | Co-author
       time: '2026'
       company: FPT University — Can Tho Campus
       details: |
-        - Co-authored two peer-reviewed papers published in the proceedings of MIWAI 2026 by Springer.
-        - Researched lightweight object detection, YOLO-based computer vision, attention mechanisms, and detection efficiency.
-        - Contributed to research activities involving experiments and comparative evaluation of computer vision models.
+        - Co-authored two papers published in the Springer proceedings of MIWAI 2026.
+        - Studied YOLO-based object detection, lightweight architectures, and attention mechanisms.
+        - Participated in experimental model evaluation and comparison of accuracy and computational efficiency.
 
 certifications:
-  title: Honors & Awards
+  title: Certificates & Honors
   list:
     - name: 100% Tuition Scholarship
-      start: ""
-      end: ""
       organization: FPT University
-      credentialid: ""
-      credentialurl: ""
-      credentialname: ""
       details: |
-        Awarded a scholarship covering 100% of tuition fees.
+        Merit-based award covering 100% of tuition fees.
+    - name: Convolutional Neural Networks
+      organization: DeepLearning.AI
+      start: 'Sep 2026'
+      details: |
+        Coursework on convolutional networks and computer vision fundamentals.
+    - name: Python for Data Science, AI & Development
+      organization: IBM
+      start: 'May 2026'
+      details: |
+        Python programming for data science and artificial intelligence workflows.
+    - name: Databases and SQL for Data Science with Python
+      organization: IBM
+      start: 'May 2026'
+      details: |
+        Relational databases and SQL querying in data-oriented applications.
+    - name: Gemini Certified Educator
+      organization: Google for Education
+      start: 'Feb 2026'
+      details: |
+        Recognition of knowledge about using generative AI tools in educational contexts.
 
 projects:
-  title: Technical Focus & Projects
+  title: Selected Projects
   intro: >
-    Selected technical areas and academic project experience.
-    Add links to repositories or demonstrations when available.
+    Academic projects connecting artificial intelligence, software development,
+    and practical problem-solving.
   assignments:
-    - title: Computer Vision and YOLO Research
-      link: ""
-      tagline: "Research on lightweight object detection architectures, attention modules, and accuracy-efficiency trade-offs."
-    - title: Machine Learning with Python
-      link: ""
-      tagline: "Hands-on work with Python-based machine learning and computer vision pipelines."
-    - title: ROS 2
-      link: ""
-      tagline: "Familiar with ROS 2 fundamentals for robotics software development."
-
-oss:
-  title: Open Source Contributions
-  intro: ""
-  contributions: []
+    - title: Certificate & Diploma Verification Application
+      tagline: >
+        Contributed to a system for authenticating diplomas and certificates.
+        The project reached the Top 30 nationally at Data for Life 2025 and
+        was presented at Vietnam National Television (VTV).
+    - title: Computer Vision & YOLO Research
+      tagline: >
+        Academic exploration of object detection, lightweight YOLO-based
+        architectures, attention modules, and model efficiency.
+    - title: Python-based Machine Learning
+      tagline: >
+        Built and experimented with machine-learning and computer-vision
+        workflows, including feature extraction, model training, and evaluation.
+    - title: ROS 2 Fundamentals
+      tagline: >
+        Familiar with ROS 2 concepts and tools for robotics software development.
 
 publications:
   title: Selected Publications
   intro: |
-    Co-author of two international conference papers published in the
-    proceedings of the 19th International Conference on Multi-disciplinary
-    Trends in Artificial Intelligence (MIWAI 2026), Springer LNCS/LNAI,
-    volume 17148.
+    Co-author of two papers in the proceedings of the International Conference
+    on Multi-disciplinary Trends in Artificial Intelligence (MIWAI 2026), Springer.
   papers:
-    - title: "Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection"
-      link: "https://doi.org/10.1007/978-981-92-6510-7_27"
-      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
-      conference: "MIWAI 2026, Springer LNCS/LNAI, vol. 17148, pp. 353–364 (2026)."
-    - title: "MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection"
-      link: "https://doi.org/10.1007/978-981-92-6510-7_28"
-      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
-      conference: "MIWAI 2026, Springer LNCS/LNAI, vol. 17148, pp. 365–378 (2026)."
+    - title: 'Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection'
+      link: 'https://doi.org/10.1007/978-981-92-6510-7_27'
+      authors: 'Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc'
+      conference: 'MIWAI 2026, Springer, DOI: 10.1007/978-981-92-6510-7_27.'
+    - title: 'MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection'
+      link: 'https://doi.org/10.1007/978-981-92-6510-7_28'
+      authors: 'Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc'
+      conference: 'MIWAI 2026, Springer, DOI: 10.1007/978-981-92-6510-7_28.'
 
-recommendations:
-  title: Recommendations
-  list: []
+# Theme-compatible additional section for campus activities.
+# If your Jekyll theme has no `activities` include, add the corresponding
+# include to the main layout to display this section.
+activities:
+  title: Activities & Outreach
+  info:
+    - title: FPT University Open Day
+      details: 'Introduced prospective students to the Artificial Intelligence program and shared academic projects.'
+    - title: Science & Technology Exhibition | Hanoi, 2025
+      details: 'Presented AI-related work at a national exhibition.'
 
 skills:
   title: Technical Skills
-  # Percentages are visual placeholders required by the theme, not certified skill ratings.
+  # The theme needs percentages for its bars; these are illustrative, not test scores.
   toolset:
     - name: Python, NumPy & Pandas
       level: '85%'
-    - name: PyTorch, TensorFlow / Keras
+    - name: PyTorch, TensorFlow & Keras
       level: '80%'
-    - name: OpenCV & YOLO Object Detection
+    - name: OpenCV, YOLO & Computer Vision
       level: '85%'
+    - name: Machine Learning & Model Evaluation
+      level: '80%'
     - name: ROS 2
       level: '65%'
     - name: Git, GitHub & Linux
       level: '75%'
-    - name: Jupyter, Colab & REST APIs
-      level: '75%'
-
+    - name: Jupyter Notebook & Google Colab
+      level: '80%'
 footer: >
   Artificial Intelligence Student | Computer Vision Researcher
