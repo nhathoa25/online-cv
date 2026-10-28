@@ -1,147 +1,133 @@
-# Resume configuration for the Jekyll resume theme.
-# Replace avatar and review the profile/contact links before publishing.
+# AI Research / Computer Vision CV — Jekyll resume configuration
+# Update contact details, profile photo and project links before publishing.
 sidebar:
-  position: left
+  position: right
   about: False
-  education: False
+  education: True
+
   name: Hoa Nhat Huynh
-  tagline: Artificial Intelligence Student | Computer Vision Researcher
+  tagline: AI Student | Computer Vision Researcher
   avatar: profile.png
-  email: thongdhce200113@gmail.com
-  phone: '(+84) 919 263 428'
+
+  email: hoahnce200136@gmail.com
+  phone: 0363961528
   timezone: Asia/Ho_Chi_Minh
   citizenship: Vietnamese
-  website: 'https://wings0520.github.io/'
-  linkedin: ''
-  xing: ''
-  github: 'wings0520'
-  telegram: ''
-  gitlab: ''
-  bitbucket: ''
-  bluesky: ''
-  twitter: ''
-  stack-overflow: ''
-  codewars: ''
-  goodreads: ''
-  mastodon: ''
-  hackerrank: ''
-  leetcode: ''
-  pdf: ''
+  website: 
+  linkedin: https://www.linkedin.com/in/nh%E1%BA%ADt-ho%C3%A0-hu%E1%BB%B3nh-b43665434/
+  xing: 
+  github: https://github.com/nhathoa25
+  telegram: 
+  gitlab: 
+  bitbucket: 
+  bluesky: 
+  twitter: 
+  stack-overflow: ""
+  codewars: 
+  goodreads: 
+  mastodon: 
+  hackerrank: 
+  leetcode: 
+  pdf: 
+
   languages:
     title: Languages
     info:
       - idiom: Vietnamese
         level: Native
+
   interests:
     title: Research Interests
     info:
-      - item: Computer Vision & Object Detection
-        link: ''
-      - item: Efficient Deep Learning
-        link: ''
-      - item: Robotics & ROS 2
-        link: ''
+      - item: Computer Vision
+        link: ""
+      - item: Object Detection
+        link: ""
+      - item: Deep Learning and Robotics
+        link: ""
 
 career-profile:
-  title: Profile
+  title: Professional Summary
   summary: |
-    Artificial Intelligence undergraduate at FPT University – Can Tho Campus,
-    awarded a 100% tuition scholarship (GPA: 3.2/4.0). Co-author of two
-    published international conference papers at MIWAI 2026 (Springer).
-    Experienced in academic computer vision research and Python-based AI
-    development, with knowledge of ROS 2. Interested in AI engineering and
-    applied computer vision research.
+    Artificial Intelligence undergraduate at FPT University and recipient of a
+    100% tuition scholarship, with a GPA of 3.2/4.0. Active in scientific
+    research and co-author of two published international conference papers
+    at MIWAI 2026 (Springer LNCS/LNAI). Proficient in Python and familiar with
+    AI development libraries, computer vision workflows, and ROS 2. Interested
+    in developing practical, efficient AI systems and conducting applied research.
 
 education:
   title: Education
   info:
-    - degree: Bachelor of Artificial Intelligence
-      university: FPT University – Can Tho Campus
-      time: '2024 – 2028 (expected)'
+    - degree: Bachelor's Degree in Artificial Intelligence (In Progress)
+      university: FPT University — Can Tho Campus
+      time: Present
       details: |
-        - **GPA:** 3.2/4.0
-        - **Scholarship:** 100% tuition scholarship, FPT University
-        - Research focus: Computer vision, object detection and efficient deep learning
+        - GPA: **3.2/4.0**
+        - Awarded a **100% tuition scholarship**.
+        - Participated in AI and computer vision research, resulting in two published conference papers.
 
 experiences:
   title: Research Experience
   info:
-    - role: Undergraduate Researcher & Co-author
+    - role: Undergraduate AI Researcher / Co-author
       time: '2026'
-      company: FPT University – Can Tho Campus
+      company: FPT University — Can Tho Campus
       details: |
-        - Co-authored two papers published in the MIWAI 2026 proceedings (Springer).
-        - Studied lightweight YOLO-based object detection, attention mechanisms and model efficiency.
-        - Participated in model experimentation, comparison and evaluation.
+        - Co-authored two peer-reviewed papers published in the proceedings of MIWAI 2026 by Springer.
+        - Researched lightweight object detection, YOLO-based computer vision, attention mechanisms, and detection efficiency.
+        - Contributed to research activities involving experiments and comparative evaluation of computer vision models.
 
 certifications:
-  title: Selected Certificates
+  title: Honors & Awards
   list:
-    - name: Convolutional Neural Networks
-      start: 'Sep 2026'
-      end: ''
-      organization: DeepLearning.AI
-      credentialid: ''
-      credentialurl: ''
-      credentialname: ''
-      details: ''
-    - name: Python for Data Science, AI & Development
-      start: 'May 2026'
-      end: ''
-      organization: IBM
-      credentialid: ''
-      credentialurl: ''
-      credentialname: ''
-      details: ''
-    - name: Databases and SQL for Data Science with Python
-      start: 'May 2026'
-      end: ''
-      organization: IBM
-      credentialid: ''
-      credentialurl: ''
-      credentialname: ''
-      details: ''
-    - name: Gemini Certified Educator
-      start: 'Feb 2026'
-      end: ''
-      organization: Google for Education
-      credentialid: ''
-      credentialurl: ''
-      credentialname: ''
-      details: ''
+    - name: 100% Tuition Scholarship
+      start: ""
+      end: ""
+      organization: FPT University
+      credentialid: ""
+      credentialurl: ""
+      credentialname: ""
+      details: |
+        Awarded a scholarship covering 100% of tuition fees.
 
 projects:
-  title: Selected Project & Activities
-  intro: ''
+  title: Technical Focus & Projects
+  intro: >
+    Selected technical areas and academic project experience.
+    Add links to repositories or demonstrations when available.
   assignments:
-    - title: Certificate & Diploma Verification Application
-      link: ''
-      tagline: 'Data for Life 2025 | National Top 30. Contributed to a document verification application; the project reached the national Top 30 and was presented at Vietnam National Television (VTV).'
-    - title: FPT University Open Day
-      link: ''
-      tagline: 'Introduced prospective students to the Artificial Intelligence program and shared student project experiences.'
-    - title: Science & Technology Exhibition – Hanoi, 2025
-      link: ''
-      tagline: 'Presented AI-related work at a national exhibition.'
+    - title: Computer Vision and YOLO Research
+      link: ""
+      tagline: "Research on lightweight object detection architectures, attention modules, and accuracy-efficiency trade-offs."
+    - title: Machine Learning with Python
+      link: ""
+      tagline: "Hands-on work with Python-based machine learning and computer vision pipelines."
+    - title: ROS 2
+      link: ""
+      tagline: "Familiar with ROS 2 fundamentals for robotics software development."
 
 oss:
   title: Open Source Contributions
-  intro: ''
+  intro: ""
   contributions: []
 
 publications:
-  title: Research Publications
+  title: Selected Publications
   intro: |
-    Two published papers in the proceedings of MIWAI 2026 (Springer).
+    Co-author of two international conference papers published in the
+    proceedings of the 19th International Conference on Multi-disciplinary
+    Trends in Artificial Intelligence (MIWAI 2026), Springer LNCS/LNAI,
+    volume 17148.
   papers:
-    - title: 'MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection'
-      link: 'https://doi.org/10.1007/978-981-92-6510-7_28'
-      authors: 'Hoa Nhat Huynh (co-author)'
-      conference: 'MIWAI 2026 | Springer | pp. 365–378 | DOI: 10.1007/978-981-92-6510-7_28'
-    - title: 'Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection'
-      link: 'https://doi.org/10.1007/978-981-92-6510-7_27'
-      authors: 'Hoa Nhat Huynh (co-author)'
-      conference: 'MIWAI 2026 | Springer | pp. 353–364 | DOI: 10.1007/978-981-92-6510-7_27'
+    - title: "Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_27"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026, Springer LNCS/LNAI, vol. 17148, pp. 353–364 (2026)."
+    - title: "MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_28"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026, Springer LNCS/LNAI, vol. 17148, pp. 365–378 (2026)."
 
 recommendations:
   title: Recommendations
@@ -165,4 +151,4 @@ skills:
       level: '75%'
 
 footer: >
-  Hoa Nhat Huynh | Artificial Intelligence Student
+  Artificial Intelligence Student | Computer Vision Researcher
