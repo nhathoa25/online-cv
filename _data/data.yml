@@ -121,34 +121,12 @@ experiences:
           evaluation, and performance comparisons.
         - Contributed to two research papers included
           in the MIWAI 2026 Springer proceedings.
-
-# ==========================================
-# SELECTED PUBLICATIONS
-# ==========================================
-
-publications:
-  title: Selected Publications
-  intro: |
-    Co-author of two papers published in the
-    MIWAI 2026 conference proceedings by Springer.
-
-  papers:
-    - title: "Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection"
-      link: "https://doi.org/10.1007/978-981-92-6510-7_27"
-      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
-      conference: "MIWAI 2026 | Springer"
-
-    - title: "MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection"
-      link: "https://doi.org/10.1007/978-981-92-6510-7_28"
-      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
-      conference: "MIWAI 2026 | Springer"
-
 # ==========================================
 # SELECTED PROJECTS
 # ==========================================
 
 projects:
-  title: Selected Projects
+  title: Projects
   intro: >
     Selected academic and research projects
     in artificial intelligence and computer vision.
@@ -166,6 +144,28 @@ projects:
         HOG, LBP, and SVM for visual classification,
         including feature extraction, training,
         and model evaluation.
+
+# ==========================================
+# SELECTED PUBLICATIONS
+# ==========================================
+
+publications:
+  title: Publications
+  intro: |
+    Co-author of two papers published in the
+    MIWAI 2026 conference proceedings by Springer.
+
+  papers:
+    - title: "Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_27"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026 | Springer"
+
+    - title: "MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_28"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026 | Springer"
+
 
 # ==========================================
 # CERTIFICATES & HONORS
