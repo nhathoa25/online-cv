@@ -31,7 +31,25 @@ sidebar:
         level: Working Knowledge
       - idiom: Japanese
         level: Basic
+  technical-skills:
+    title: Technical Skills
+    info:
+      - item: Python, NumPy, Pandas
+      - item: PyTorch, TensorFlow, Keras
+      - item: OpenCV, YOLO
+      - item: Machine Learning, SVM
+      - item: ROS 2
+      - item: Git, GitHub, Linux
+      - item: Jupyter Notebook, Google Colab
 
+  soft-skills:
+    title: Soft Skills
+    info:
+      - item: Analytical Thinking
+      - item: Problem Solving
+      - item: Teamwork & Collaboration
+      - item: Communication
+      - item: Self-Learning & Adaptability
 # ==========================================
 # SIDEBAR - TECHNICAL SKILLS
 # Replaces the default Interests section
