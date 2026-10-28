@@ -1,16 +1,4 @@
 
-# ==========================================
-# CV SECTION ORDER
-# Change the order here to rearrange the CV
-# ==========================================
-
-section-order:
-  - career-profile
-  - education
-  - experiences
-  - projects
-  - publications
-  - certifications
 
 # ==========================================
 # AI / COMPUTER VISION RESUME
