@@ -1,5 +1,18 @@
 
 # ==========================================
+# CV SECTION ORDER
+# Change the order here to rearrange the CV
+# ==========================================
+
+section-order:
+  - career-profile
+  - education
+  - experiences
+  - projects
+  - publications
+  - certifications
+
+# ==========================================
 # AI / COMPUTER VISION RESUME
 # Optimized for Jekyll Online CV
 # ==========================================
@@ -51,22 +64,6 @@ sidebar:
       - item: Teamwork & Collaboration
       - item: Communication
       - item: Self-Learning & Adaptability
-# ==========================================
-# SIDEBAR - TECHNICAL SKILLS
-# Replaces the default Interests section
-# ==========================================
-
-interests:
-  title: Technical Skills
-  info:
-    - item: "Programming: Python, SQL"
-    - item: "Data: NumPy, Pandas"
-    - item: "Deep Learning: PyTorch, TensorFlow, Keras"
-    - item: "Computer Vision: OpenCV, YOLO"
-    - item: "Machine Learning: Scikit-learn, SVM"
-    - item: "Robotics: ROS 2 (Basic)"
-    - item: "Tools: Git, GitHub, Linux"
-    - item: "Development: Jupyter, Google Colab"
 
 # ==========================================
 # MAIN CONTENT
