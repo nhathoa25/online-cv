@@ -1,24 +1,96 @@
+
 ---
 layout: default
 ---
 
+{% comment %}
+==========================================
+DYNAMIC CV SECTION ORDER
 
-{% include career-profile.html %}
+Section order is controlled in:
+_data/data.yml
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
+Supports:
+- Professional Summary
+- Education
+- Research Experience
+- Projects
+- Publications
+- Honors & Certifications
+- Open Source Contributions
+- Recommendations
+- Skills
+
+==========================================
+{% endcomment %}
+
+{% assign cv = site.data.data %}
+
+{% assign section_order = cv.section-order %}
+
+{% comment %}
+Fallback when section-order is missing
+{% endcomment %}
+
+{% unless section_order %}
+  {% assign section_order = "career-profile,education,experiences,projects,publications,certifications,oss-contributions,recommendations,skills" | split: "," %}
 {% endunless %}
 
-{% include experiences.html %}
+{% comment %}
+Render CV sections in the specified order
+{% endcomment %}
 
-{% include certifications.html %}
+{% for section in section_order %}
 
-{% include projects.html %}
+  {% case section %}
 
-{% include oss-contributions.html %}
+    {% when 'career-profile' %}
+      {% if cv.career-profile %}
+        {% include career-profile.html %}
+      {% endif %}
 
-{% include publications.html %}
+    {% when 'education' %}
+      {% if cv.education %}
+        {% unless cv.sidebar.education %}
+          {% include education.html %}
+        {% endunless %}
+      {% endif %}
 
-{% include recommendations.html %}
+    {% when 'experiences' %}
+      {% if cv.experiences %}
+        {% include experiences.html %}
+      {% endif %}
 
-{% include skills.html %}
+    {% when 'projects' %}
+      {% if cv.projects %}
+        {% include projects.html %}
+      {% endif %}
+
+    {% when 'publications' %}
+      {% if cv.publications %}
+        {% include publications.html %}
+      {% endif %}
+
+    {% when 'certifications' %}
+      {% if cv.certifications %}
+        {% include certifications.html %}
+      {% endif %}
+
+    {% when 'oss-contributions' %}
+      {% if cv.oss %}
+        {% include oss-contributions.html %}
+      {% endif %}
+
+    {% when 'recommendations' %}
+      {% if cv.recommendations %}
+        {% include recommendations.html %}
+      {% endif %}
+
+    {% when 'skills' %}
+      {% if cv.skills %}
+        {% include skills.html %}
+      {% endif %}
+
+  {% endcase %}
+
+{% endfor %}
