@@ -1,34 +1,26 @@
-# AI Research / Computer Vision CV — Jekyll resume configuration
-# Update contact details, profile photo and project links before publishing.
+
+# ==========================================
+# AI / COMPUTER VISION RESUME
+# Optimized for Jekyll Online CV
+# ==========================================
+
 sidebar:
   position: right
   about: False
-  education: True
+  education: False
 
   name: Hoa Nhat Huynh
-  tagline: AI Student | Computer Vision Researcher
+  tagline: AI Engineer Intern | Computer Vision
   avatar: profile.png
 
   email: hoahnce200136@gmail.com
   phone: 0363961528
   timezone: Asia/Ho_Chi_Minh
   citizenship: Vietnamese
-  website: 
-  linkedin: www.linkedin.com/in/nhật-hoà-huỳnh-b43665434
-  xing: 
+  website:
+  linkedin: https://www.linkedin.com/in/nhật-hoà-huỳnh-b43665434
   github: https://github.com/nhathoa25
-  telegram: 
-  gitlab: 
-  bitbucket: 
-  bluesky: 
-  twitter: 
-  stack-overflow:
-  codewars: 
-  goodreads: 
-  mastodon: 
-  hackerrank: 
-  leetcode: 
-  pdf: 
+  pdf:
 
   languages:
     title: Languages
@@ -36,150 +28,150 @@ sidebar:
       - idiom: Vietnamese
         level: Native
       - idiom: English
-        level: Working knowledge
+        level: Working Knowledge
       - idiom: Japanese
         level: Basic
+
+# ==========================================
+# SIDEBAR - TECHNICAL SKILLS
+# Replaces the default Interests section
+# ==========================================
+
 interests:
-    title: Soft Skills
-    info:
-      - item: Analytical Thinking & Problem Solving
-      - item: Critical Thinking
-      - item: Teamwork & Research Collaboration
-      - item: Self-Learning & Adaptability
-      - item: Communication & Presentation
-      - item: Time Management & Organization
+  title: Technical Skills
+  info:
+    - item: "Programming: Python, SQL"
+    - item: "Data: NumPy, Pandas"
+    - item: "Deep Learning: PyTorch, TensorFlow, Keras"
+    - item: "Computer Vision: OpenCV, YOLO"
+    - item: "Machine Learning: Scikit-learn, SVM"
+    - item: "Robotics: ROS 2 (Basic)"
+    - item: "Tools: Git, GitHub, Linux"
+    - item: "Development: Jupyter, Google Colab"
+
+# ==========================================
+# MAIN CONTENT
+# ==========================================
 
 career-profile:
   title: Professional Summary
   summary: |
-    **Target Positions:** AI Engineer Intern, Computer Vision Research Intern,
-    or AI Research Assistant.
+    Aspiring AI Engineer and Computer Vision Researcher
+    with a strong interest in developing practical and
+    efficient artificial intelligence solutions.
 
-    Artificial Intelligence undergraduate at FPT University (Can Tho Campus),
-    awarded a 100% tuition scholarship and maintaining a GPA of 3.2/4.0.
-    Co-author of two international conference papers in the MIWAI 2026
-    proceedings published by Springer. Experienced in academic research on
-    object detection and computer vision, with hands-on Python programming
-    and AI development tools. Familiar with ROS 2 and interested in
-    practical AI applications, efficient models, and applied research.
-    Research interests include computer vision, object detection, and robotics.
+    Hands-on experience in machine learning, deep learning,
+    object detection, and experimental model evaluation.
+
+    Seeking opportunities to apply technical knowledge,
+    contribute to real-world AI projects, and develop
+    professional research and engineering skills.
+
+
+# ==========================================
+# EDUCATION
+# ==========================================
 
 education:
   title: Education
   info:
-    - degree: Bachelor's Degree in Artificial Intelligence (In Progress)
-      university: FPT University — Can Tho Campus
-      time: '2024 – 2028 (expected)'
+    - degree: B.Sc. in Artificial Intelligence
+      university: FPT University - Can Tho Campus
+      time: "2024 - 2028 (Expected)"
       details: |
         - **GPA:** 3.2/4.0
-        - **Scholarship:** 100% tuition scholarship, FPT University.
-        - **Academic focus:** Artificial Intelligence, Machine Learning, Deep Learning, and Computer Vision.
+        - **Scholarship:** 100% Tuition Scholarship
+        - **Focus:** Machine Learning, Deep Learning,
+          Computer Vision, and Artificial Intelligence.
+
+# ==========================================
+# RESEARCH EXPERIENCE
+# ==========================================
 
 experiences:
   title: Research Experience
   info:
-    - role: Undergraduate AI Researcher | Co-author
-      time: '2026'
-      company: FPT University — Can Tho Campus
+    - role: Undergraduate AI Researcher
+      time: "2026"
+      company: FPT University - Can Tho Campus
       details: |
-        - Co-authored two papers published in the Springer proceedings of MIWAI 2026.
-        - Studied YOLO-based object detection, lightweight architectures, and attention mechanisms.
-        - Participated in experimental model evaluation and comparison of accuracy and computational efficiency.
+        - Conducted research on YOLO-based object detection
+          and lightweight neural network architectures.
+        - Explored attention mechanisms for improving
+          detection performance and model efficiency.
+        - Participated in model training, experimental
+          evaluation, and performance comparisons.
+        - Contributed to two research papers included
+          in the MIWAI 2026 Springer proceedings.
 
-certifications:
-  title: Certificates & Honors
-  list:
-    - name: 100% Tuition Scholarship
-      organization: FPT University
-      details: |
-        Merit-based award covering 100% of tuition fees.
-    - name: Convolutional Neural Networks
-      organization: DeepLearning.AI
-      start: 'Sep 2026'
-      details: |
-        Coursework on convolutional networks and computer vision fundamentals.
-    - name: Python for Data Science, AI & Development
-      organization: IBM
-      start: 'May 2026'
-      details: |
-        Python programming for data science and artificial intelligence workflows.
-    - name: Databases and SQL for Data Science with Python
-      organization: IBM
-      start: 'May 2026'
-      details: |
-        Relational databases and SQL querying in data-oriented applications.
-    - name: Gemini Certified Educator
-      organization: Google for Education
-      start: 'Feb 2026'
-      details: |
-        Recognition of knowledge about using generative AI tools in educational contexts.
-
-projects:
-  title: Selected Projects
-  intro: >
-    Academic projects connecting artificial intelligence, software development,
-    and practical problem-solving.
-  assignments:
-    - title: Certificate & Diploma Verification Application
-      tagline: >
-        Contributed to a system for authenticating diplomas and certificates.
-        The project reached the Top 30 nationally at Data for Life 2025 and
-        was presented at Vietnam National Television (VTV).
-    - title: Computer Vision & YOLO Research
-      tagline: >
-        Academic exploration of object detection, lightweight YOLO-based
-        architectures, attention modules, and model efficiency.
-    - title: Python-based Machine Learning
-      tagline: >
-        Built and experimented with machine-learning and computer-vision
-        workflows, including feature extraction, model training, and evaluation.
-    - title: ROS 2 Fundamentals
-      tagline: >
-        Familiar with ROS 2 concepts and tools for robotics software development.
+# ==========================================
+# SELECTED PUBLICATIONS
+# ==========================================
 
 publications:
   title: Selected Publications
   intro: |
-    Co-author of two papers in the proceedings of the International Conference
-    on Multi-disciplinary Trends in Artificial Intelligence (MIWAI 2026), Springer.
+    Co-author of two papers published in the
+    MIWAI 2026 conference proceedings by Springer.
+
   papers:
-    - title: 'Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection'
-      link: 'https://doi.org/10.1007/978-981-92-6510-7_27'
-      authors: 'Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc'
-      conference: 'MIWAI 2026, Springer, DOI: 10.1007/978-981-92-6510-7_27.'
-    - title: 'MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection'
-      link: 'https://doi.org/10.1007/978-981-92-6510-7_28'
-      authors: 'Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc'
-      conference: 'MIWAI 2026, Springer, DOI: 10.1007/978-981-92-6510-7_28.'
+    - title: "Placement Matters: An Accuracy-Cost Study of Attention Modules for Lightweight UAV Person Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_27"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026 | Springer"
 
-# Theme-compatible additional section for campus activities.
-# If your Jekyll theme has no `activities` include, add the corresponding
-# include to the main layout to display this section.
-activities:
-  title: Activities & Outreach
-  info:
-    - title: FPT University Open Day
-      details: 'Introduced prospective students to the Artificial Intelligence program and shared academic projects.'
-    - title: Science & Technology Exhibition | Hanoi, 2025
-      details: 'Presented AI-related work at a national exhibition.'
+    - title: "MORPH-YOLO: A High-Frequency Morphology-Preserving Neck for Fine-Grained Pest Detection"
+      link: "https://doi.org/10.1007/978-981-92-6510-7_28"
+      authors: "Thong Hoang Dang, Dat Tien Huynh Kim, Hoa Nhat Huynh, Long Thanh Nguyen, Hoang Tran Ngoc"
+      conference: "MIWAI 2026 | Springer"
 
-skills:
-  title: Technical Skills
-  # The theme needs percentages for its bars; these are illustrative, not test scores.
-  toolset:
-    - name: Python, NumPy & Pandas
-      level: '85%'
-    - name: PyTorch, TensorFlow & Keras
-      level: '80%'
-    - name: OpenCV, YOLO & Computer Vision
-      level: '85%'
-    - name: Machine Learning & Model Evaluation
-      level: '80%'
-    - name: ROS 2
-      level: '65%'
-    - name: Git, GitHub & Linux
-      level: '75%'
-    - name: Jupyter Notebook & Google Colab
-      level: '80%'
+# ==========================================
+# SELECTED PROJECTS
+# ==========================================
+
+projects:
+  title: Selected Projects
+  intro: >
+    Selected academic and research projects
+    in artificial intelligence and computer vision.
+
+  assignments:
+    - title: YOLO-based Object Detection Research
+      tagline: >
+        Investigated lightweight YOLO architectures,
+        attention modules, and performance optimization
+        for computer vision applications.
+
+    - title: Traditional Machine Learning for Computer Vision
+      tagline: >
+        Developed machine learning workflows using
+        HOG, LBP, and SVM for visual classification,
+        including feature extraction, training,
+        and model evaluation.
+
+# ==========================================
+# CERTIFICATES & HONORS
+# ==========================================
+
+certifications:
+  title: Honors & Certifications
+  list:
+    - name: Convolutional Neural Networks
+      organization: DeepLearning.AI
+      start: "Sep 2026"
+    - name: Python for Data Science, AI & Development
+      organization: IBM
+      start: "May 2026"
+    - name: Databases and SQL for Data Science with Python
+      organization: IBM
+      start: "May 2026"
+    - name: Gemini Certified Educator
+      organization: Google for Education
+      start: "Feb 2026"
+
+# ==========================================
+# FOOTER
+# ==========================================
+
 footer: >
-  Artificial Intelligence Student | Computer Vision Researcher
+  Artificial Intelligence | Computer Vision | AI Research
