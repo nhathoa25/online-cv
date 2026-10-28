@@ -1,10 +1,15 @@
+
 {% assign sidebar = site.data.data.sidebar %}
+
 <div class="sidebar-wrapper">
 
+  <!-- PROFILE -->
   <div class="profile-container">
 
     {% if sidebar.avatar %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar"
+         src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}"
+         alt="Profile picture" />
     {% endif %}
 
     {% if sidebar.name %}
@@ -15,19 +20,84 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+  </div>
+  <!-- END PROFILE -->
 
+
+  <!-- CONTACT INFORMATION -->
   {% include contact.html %}
 
+
+  <!-- EDUCATION (OPTIONAL) -->
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
 
-  {% include language.html %}
-  {% include interests.html %}
 
+  <!-- LANGUAGES -->
+  {% if sidebar.languages %}
+    {% include language.html %}
+  {% endif %}
+
+
+  <!-- TECHNICAL SKILLS -->
+  {% assign tech = sidebar.technical-skills %}
+
+  {% if tech %}
+  <div class="interests-container container-block">
+
+    <h2 class="container-block-title">
+      {{ tech.title }}
+    </h2>
+
+    <ul class="list-unstyled interests-list">
+
+      {% for skill in tech.info %}
+      <li>
+        {{ skill.item }}
+      </li>
+      {% endfor %}
+
+    </ul>
+
+  </div>
+  {% endif %}
+
+
+  <!-- SOFT SKILLS -->
+  {% assign soft = sidebar.soft-skills %}
+
+  {% if soft %}
+  <div class="interests-container container-block">
+
+    <h2 class="container-block-title">
+      {{ soft.title }}
+    </h2>
+
+    <ul class="list-unstyled interests-list">
+
+      {% for skill in soft.info %}
+      <li>
+        {{ skill.item }}
+      </li>
+      {% endfor %}
+
+    </ul>
+
+  </div>
+  {% endif %}
+
+
+  <!-- OTHER INTERESTS (OPTIONAL) -->
+  {% if site.data.data.interests %}
+    {% include interests.html %}
+  {% endif %}
+
+
+  <!-- ABOUT (OPTIONAL) -->
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>
+<!-- END SIDEBAR -->
