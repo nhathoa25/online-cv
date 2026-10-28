@@ -362,4 +362,50 @@ p {
   .fas {
     margin-right: 5px;
   }
+  
+/* ==========================================
+   IMPROVE CV TEXT READABILITY
+   ========================================== */
+
+.main-wrapper {
+
+  /* Ten to chuc cap chung chi */
+  .cert-org {
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* Ngay thang ben phai */
+  .time {
+    color: #374151;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* Ten tac gia bai bao */
+  .publication-authors {
+    color: #374151;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  /* Tieu de bai bao */
+  .publication-title {
+    color: #176B85;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  /* Ten don vi khac */
+  .company,
+  .university {
+    color: #4B5563;
+    font-weight: 500;
+  }
+}
+
 }
