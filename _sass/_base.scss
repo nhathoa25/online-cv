@@ -1,10 +1,15 @@
-/* ======= Base ======= */
+
+/* ==========================================
+   BASE - PROFESSIONAL AI RESEARCH CV
+   ========================================== */
+
 body {
   font-family: "Roboto", sans-serif;
-  color: $text-color-secondary;
+  color: #303846;
   background: $smoky-white;
   font-size: 14px;
   padding: 30px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,10 +25,13 @@ h6 {
 
 a {
   color: darken($theme-color, 15%);
+  text-decoration: none;
+
   &:hover {
     text-decoration: underline;
     color: darken($theme-color, 30%);
   }
+
   &:focus {
     text-decoration: none;
   }
@@ -33,6 +41,10 @@ p {
   line-height: 1.5;
 }
 
+/* ==========================================
+   MAIN CV LAYOUT
+   ========================================== */
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -40,50 +52,68 @@ p {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+
+  @include box-shadow(
+    0px 2px 4px rgba(0, 0, 0, 0.1)
+  );
 }
+
+/* ==========================================
+   SIDEBAR
+   ========================================== */
 
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
-  color: #fff;
+  color: #FFFFFF;
+
   a {
-    color: #fff;
+    color: #FFFFFF;
+    overflow-wrap: anywhere;
   }
+
+  /* Profile */
+
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: #fff;
+    color: #FFFFFF;
   }
+
   .name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(255, 255, 255, 0.95);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 1.4;
   }
+
   .profile {
     margin-bottom: 15px;
   }
 
   .avatar {
-    //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0 solid #FFFFFF;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
+
+  /* Contact */
+
   .contact-list {
+
     .fas,
     .fab,
     .far {
@@ -91,67 +121,98 @@ p {
       font-size: 18px;
       vertical-align: middle;
     }
+
     li {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
+
+  /* General sidebar sections */
+
   .container-block {
     padding: 30px;
   }
+
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
+    color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 15px;
   }
+
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+
+  /* Sidebar education */
+
   .education-container {
+
     .item {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
+
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: #FFFFFF;
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-top: 0;
     }
+
     .time {
-      color: rgba(256, 256, 256, 0.6);
+      color: #FFFFFF;
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
+
+  /* Languages */
+
   .languages-container {
+
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 400;
     }
   }
 
   .languages-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+      line-height: 1.5;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
   }
 
+  /* Technical skills and soft skills */
+
   .interests-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #FFFFFF;
+      overflow-wrap: anywhere;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -159,11 +220,19 @@ p {
   }
 }
 
+/* ==========================================
+   MAIN CONTENT
+   ========================================== */
+
 .main-wrapper {
   grid-column: span 7;
   order: $resume-order;
-  background: #fff;
+  background: #FFFFFF;
   padding: 60px;
+  color: #303846;
+
+  /* Section headings */
+
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -173,17 +242,24 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
   .section {
     margin-bottom: 60px;
   }
 
+  /* Experience and education sections */
+
   .experiences-section,
   .recommendations-section,
   .educations-section {
+
     .item {
       margin-bottom: 30px;
     }
   }
+
+  /* Upper rows */
+
   .upper-row,
   .second-upper-row {
     position: relative;
@@ -191,11 +267,14 @@ p {
     margin-bottom: 2px;
     display: flex;
   }
+
+  /* Main item titles */
+
   .job-title,
   .degree,
   .cert-title,
   .recommendation-person {
-    color: $text-color;
+    color: #263238;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
@@ -203,92 +282,191 @@ p {
     flex: 75%;
   }
 
+  /* ========================================
+     DATES - IMPROVED CONTRAST
+     ======================================== */
+
   .time,
   .cert-url {
     position: absolute;
     right: 0;
     top: 0;
-    color: $text-grey;
+    color: #355C7D;
+    font-size: 13px;
+    font-weight: 600;
     flex: 25%;
   }
+
+  /* ========================================
+     UNIVERSITIES & ORGANIZATIONS
+     ======================================== */
+
   .company,
   .recommendation-role,
   .university,
   .cert-org {
     margin-bottom: 10px;
-    color: $text-grey;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
   }
+
+  /* ========================================
+     PROJECTS
+     ======================================== */
 
   .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+
   .projects-section {
+
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
   }
+
+  /* Open-source projects */
+
   .oss-section {
+
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
   }
+
+  /* ========================================
+     PUBLICATIONS
+     ======================================== */
+
+  /* Publication titles */
 
   .publication-title {
     font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
-    margin-bottom: 1px;
+    font-weight: 500;
+    color: #176B85;
+    margin-bottom: 3px;
+    line-height: 1.5;
+
+    a {
+      color: #176B85;
+
+      &:hover {
+        color: #104E63;
+        text-decoration: underline;
+      }
+    }
   }
+
+  /* Authors - darker and non-italic */
+
   .publication-authors {
-    font-style: italic;
-    color: $text-grey;
-    margin-bottom: 1px;
+    font-style: normal;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 3px;
   }
+
   .publications-section {
+
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
+
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 18px;
     }
+  }
+
+  /* ========================================
+     CERTIFICATIONS
+     ======================================== */
+
+  .certifications-section {
+
+    .cert-title {
+      color: #263238;
+      font-weight: 500;
+    }
+
+    .cert-org {
+      color: #374151;
+      font-weight: 500;
+    }
+
+    .time {
+      color: #355C7D;
+      font-weight: 600;
+    }
+  }
+
+  /* ========================================
+     TEXT READABILITY
+     ======================================== */
+
+  p,
+  li {
+    color: #303846;
+    line-height: 1.5;
+  }
+
+  .details {
+    color: #303846;
   }
 }
 
+/* ==========================================
+   TECHNICAL SKILL BARS
+   ========================================== */
+
 .skillset {
+
   .item {
     margin-bottom: 15px;
     overflow: hidden;
   }
+
   .level-title {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
   }
+
   .level-bar {
     height: 12px;
     background: $smoky-white;
   }
+
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-color, 15%);
   }
 }
 
+/* ==========================================
+   FOOTER
+   ========================================== */
+
 .footer {
   padding-top: 30px;
+
   .copyright {
     line-height: 1.6;
-    color: $text-color-secondary;
+    color: #4B5563;
     font-size: 13px;
   }
 
@@ -297,13 +475,17 @@ p {
   }
 }
 
+/* ==========================================
+   PRINT BUTTON
+   ========================================== */
+
 .print-button {
   position: fixed;
   top: 20px;
-  right: 120px; // Changed from 20px to make space for the PDF button
+  right: 120px;
   z-index: 1000;
   background: $theme-color;
-  color: #fff;
+  color: #FFFFFF;
   padding: 8px 15px;
   border-radius: 4px;
   border: none;
@@ -328,13 +510,17 @@ p {
   }
 }
 
+/* ==========================================
+   PDF BUTTON
+   ========================================== */
+
 .pdf-button {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 1000;
   background: $theme-color;
-  color: #fff;
+  color: #FFFFFF;
   padding: 8px 15px;
   border-radius: 4px;
   border: none;
@@ -362,50 +548,4 @@ p {
   .fas {
     margin-right: 5px;
   }
-  
-/* ==========================================
-   IMPROVE CV TEXT READABILITY
-   ========================================== */
-
-.main-wrapper {
-
-  /* Ten to chuc cap chung chi */
-  .cert-org {
-    color: #374151;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-  /* Ngay thang ben phai */
-  .time {
-    color: #374151;
-    font-size: 13px;
-    font-weight: 600;
-  }
-
-  /* Ten tac gia bai bao */
-  .publication-authors {
-    color: #374151;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.6;
-  }
-
-  /* Tieu de bai bao */
-  .publication-title {
-    color: #176B85;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.5;
-  }
-
-  /* Ten don vi khac */
-  .company,
-  .university {
-    color: #4B5563;
-    font-weight: 500;
-  }
-}
-
 }
