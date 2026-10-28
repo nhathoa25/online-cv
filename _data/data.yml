@@ -39,12 +39,15 @@ sidebar:
         level: Working knowledge
       - idiom: Japanese
         level: Basic
-  interests:
-    title: Research Interests
+ interests:
+    title: Soft Skills
     info:
-      - item: Computer Vision & Object Detection
-      - item: Efficient Deep Learning
-      - item: Robotics & ROS 2
+      - item: Analytical Thinking & Problem Solving
+      - item: Critical Thinking
+      - item: Teamwork & Research Collaboration
+      - item: Self-Learning & Adaptability
+      - item: Communication & Presentation
+      - item: Time Management & Organization
 
 career-profile:
   title: Professional Summary
